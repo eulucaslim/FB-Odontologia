@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+    font-weight: 900;
+    color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 10px; 
+    background-color:#FFFBF7;
+}
+
+#fb_logo {
+    max-width: 100px;
+}
+
+#title_fb {
+    font-family: 'Josefin Sans';
+    font-size: 2.5rem;
+    margin: 25px;
+    flex: 1;              
+    text-align: center;
+}
+
+#title_h2 {
+    font-family: 'Josefin Sans';
+    font-size:3rem;
+    font-weight: 900;
+    margin-left: 20px;
+}
+nav {
+    border-bottom: 1px solid black;
+    margin-right: 2rem;
+}
+
+#nav_bar, a{
+    text-decoration: none;
+    color: black;
+}
+ol {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+li {
+   margin-left: 15px;    
+}
+
+main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.text_content{
+    display: grid; 
+    grid-template-rows: 1fr 2fr; 
+    width: 700px;
+}
+p {
+    flex: 1; 
+    margin-left: 20px;
+    text-align: justify;
+    font-size: 20px; 
+    line-height: 1.4;
+
+}
+
+#fb_odonto {
+    margin-right: 40px;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12rem;
+    box-shadow: 10px 10px 20px rgba(210, 180, 140, 0.6);
+}
+
